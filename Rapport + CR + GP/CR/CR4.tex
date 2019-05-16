@@ -1,0 +1,112 @@
+\documentclass[11pt]{meetingmins}
+\usepackage[utf8]{inputenc}   
+\usepackage[T1]{fontenc}
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering}X}
+\usepackage{colortbl}
+
+\setcommittee{Projet C/SD 2018 : Compte-rendu de réunion 4}
+
+
+\setmembers{
+  Rémy BANEL,
+  Ali LABBAIZE ,
+  Paul-Louis FEULVARCH
+}
+
+\setdate{Avril 20, 2018}
+
+\setpresent{
+  Rémy BANEL,
+  Ali LABBAIZE ,
+  Paul-Louis FEULVARCH
+}
+\absent{ Aucun }
+\begin{document}
+\maketitle
+\section{Type de réunion : \textnormal{Réunion d'avancement} }
+
+\section{Durée : \textnormal{1 heure 00 minutes} }
+\section{Lieu : \textnormal{Salle PI de l'école} }
+
+
+\section{}
+\section{Ordre du jour :}
+\begin{hiddenitems}
+
+Voir l'avancement du projet, ce qui a été fait, ce qu'il reste à faire. Définir le travail à effectuer par chaque membre pendant les vacances.
+\end{hiddenitems}
+
+
+
+\section{Informations échangées :}
+\begin{hiddenitems}
+\item
+\textbf{A.~LABBAIZE : } a présenté son code d'extraction des données du fichier texte tout en expliquant aux autres membres comment celui-ci fonctionne. Pour l'instant, celui-ci permet seulement de récupérer les titres du fichier.
+\item
+\textbf{PL.~FEULVARCH : }a présenté son travail sur l'interface graphique. Il arrive notamment à ouvrir une fenêtre et peut y placer l'image souhaité dessus.
+\item
+\textbf{R. ~BANEL} a récapituler brièvement les différents types de recommandation.
+
+
+\item Revue de l'atteinte des objectifs de la Todo list de la réunion précédente :
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{4cm}|c|c|c|c|}
+    \hline
+        \rowcolor{yellow} Description & Responsable & Validation
+        \tabularnewline \hline
+        Fonction d'extraction du fichier .txt &  A.LABBAIZE & Oui.
+        \tabularnewline \hline
+        Premier pas avec l'interface graphique & PL.FEULVARCH & Oui.
+        \tabularnewline \hline
+        Terminer l'état d'art  & R.~Banel & Oui. \tabularnewline \hline 
+
+        
+    \end{tabular}
+    \caption{Atteinte des objectifs}
+    \label{tab:my_label}
+\end{table}
+
+\end{hiddenitems}
+
+\newpage
+
+\section{Décisions :}
+\begin{itemize}
+    \item Au vu des différents type de recommandation, il est évident que nous aurons très vite besoin de pouvoir faire des calculs matriciels et notamment des produits de 2 matrices. Il peut donc s'avérer utile de coder ceci. 
+    \item Il peut être utile d'avoir une idée de ce à quoi ressemblera l'interface graphique, des données qui seront présente dessus, etc. Il est donc important de continuer à travailler sur le code de celle-ci ainsi que sur son aspect visuel. R.~Banel se propose de travailler sur ce dernier point grâce à son expérience des logiciels de photo-montage.
+    \item Il est nécessaire de commencer à ranger les informations pertinentes dans des matrices afin de pouvoir commencer à effectuer des recommandation.
+\end{itemize}
+\section{Todo list :}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{4cm}|p{3cm}|c|c|c|}
+    \hline
+        \rowcolor{yellow} Description  & Responsable & Délai & Livrable & Validé par 
+        \tabularnewline \hline
+        
+        Coder un produit matriciel & R.~BANEL & Pour le 07/05/2018 & Code C & Toute l'équipe \tabularnewline \hline
+        
+        Prototype de l'interface graphique & PLF & Pour le 07/05/2018 & Code C & Toute l'équipe
+        \tabularnewline \hline 
+        
+        Visuels de l'interface graphique & R.~BANEL & Pour le 07/05/2018 & Image .png & Toute l'équipe
+        \tabularnewline \hline 
+        
+        Ordonner les informations importantes dans des matrices  & A.~LABBAIZE & Pour le 07/05/2018 & Code C & Toute l'équipe \tabularnewline \hline
+        
+        
+        
+    \end{tabular}
+    \caption{Distribution des tâches}
+    \label{tab:my_label}
+\end{table}
+
+%\section{Questions/Remarques : }
+%\begin{itemize}
+%    \item 
+%\end{itemize}
+\section{Date de la prochaine réunion : \textnormal{le 07 Mai 2018} }
+
+\end{document}

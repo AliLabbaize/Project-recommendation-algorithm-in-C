@@ -1,0 +1,6 @@
+https://openclassrooms.com/courses/apprenez-a-programmer-en-c/installation-de-la-sdl
+
+https://wiki.libsdl.org/
+
+https://www.libsdl.org/release/SDL-1.2.15/docs/html
+

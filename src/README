@@ -1,0 +1,6 @@
+Le dossier src contient toutes les fonctions qui assure la bonne fonctionalité du projet (fonction_calcul.c , fonction_transfers.c , interfacetest.c)
+1. il faut installer SDL (cf installation.txt)
+2. le makefile s'occupe du reste
+3. et pour lancer  l'interface ça sera ./exe
+
+Notes : toutes les structures / prototypes des fonctions sont dans les fichiers .h

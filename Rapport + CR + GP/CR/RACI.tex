@@ -1,0 +1,27 @@
+\documentclass[light]{ceri}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{calc}
+\usepackage{colortbl}
+
+\begin{document}
+
+% Etoiles au second rang d'itemize
+\renewcommand{\labelitemii}{$\star$}
+\thispagestyle{empty}
+
+\section*{Annexe 2 : RACI}
+\begin{center}
+\begin{tabular} {|c|c|c|c|}
+\hline {}& {A.LABBAIZE} & {R.BANEL} & {PL.FEULVARCHE} \\
+\hline {Récupération des données du fichier texte} & {RA} & {I} & {A} \\
+\hline {SDL} & {I} & {A} & {RA} \\
+\hline {Système de recommandation} & {RA} & {CA} & {CA} \\
+\hline {Création des images du jeu} & {CI} & {RA} & {I} \\
+\hline {Fonctionnalités supplémentaires} & {RA} & {I} & {A} \\
+\hline {Rédaction du compte rendu} & {RA} & {A} & {A} \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}
